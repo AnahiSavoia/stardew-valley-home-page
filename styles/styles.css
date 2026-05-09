@@ -1,0 +1,155 @@
+/*FONTS*/
+
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Istok+Web:ital,wght@0,400;0,700;1,400;1,700&family=Oxygen:wght@300;400;700&display=swap');
+
+* {
+
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+}
+
+html {
+    font-size: 62.5%;
+}
+
+/*GRID*/
+/* .grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr repeat(3, 2fr) 1fr;
+} */
+
+body {
+    background-image: url(../assets/stardewbackground.png);
+    background-size: cover;
+    background-position: center; /*Ojo que esto me hace ruido*/
+    background-repeat: no-repeat;
+}
+
+.header {
+    background-image: url(../assets/backgroundSV-header.jpg);
+    background-size: cover;
+    padding: 10px 0 20px 0;
+}
+
+.header-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.redes-container {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+}
+
+.redes-container ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 8px;
+
+}
+
+.stardew-valley-logo-container {
+    justify-content: center;
+}
+
+.links-header-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.links-header{
+    list-style: none;
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    justify-content: space-around;
+}
+
+h1 {
+    font-family: "Abel", sans-serif;
+    font-size: 5rem;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+h2, h3 {
+    font-family: "Oxygen", sans-serif;
+    font-weight: 400;
+}
+
+/*First section*/
+
+.introduction {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+}
+
+.introduction h2{
+    font-family: "Abel", sans-serif;
+    font-weight: 400;
+    font-size: 3.5rem;
+    padding: 1rem;
+}
+
+.introduction p {
+    font-family: "Oxygen", sans-serif;
+    font-size: 2rem;
+    margin: 0 6rem 4rem;
+}
+
+
+
+
+/*Second section*/
+
+.to-do {
+    display:  grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+
+.links-header a {
+    text-decoration: none;
+    font-family: "Oxygen", sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 1.3rem;
+    font-weight: 400;
+}
+
+/*Logos*/
+.instagram-logo {
+    width: 24px;
+    height: auto;
+}
+
+.x-logo {
+    width: 24px;
+    height: auto;
+}
+
+.facebook-logo {
+    width: 24px;
+    height: auto;
+}
+
+.youtube-logo {
+    width: 24px;
+    height: auto;
+}
+
+.spotify-logo {
+    width: 24px;
+    height: auto;
+}
+
