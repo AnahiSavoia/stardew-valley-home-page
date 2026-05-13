@@ -98,13 +98,13 @@ h2, h3 {
 .introduction h2{
     font-family: "Abel", sans-serif;
     font-weight: 400;
-    font-size: 3.5rem;
+    font-size: 3.1rem;
     padding: 1rem;
 }
 
 .introduction p {
     font-family: "Oxygen", sans-serif;
-    font-size: 2rem;
+    font-size: 1.8rem;
     margin: 0 6rem 4rem;
 }
 
@@ -137,13 +137,13 @@ h2, h3 {
 
 .friendship p, .community-center p {
     font-family: "Oxygen", sans-serif;
-    font-size: 2rem;
+    font-size: 1.8rem;
     max-width: 50rem;
 }
 
 .mines p {
     font-family: "Oxygen", sans-serif;
-    font-size: 2rem;
+    font-size: 1.8rem;
     max-width: 50rem;
 }
 
@@ -165,7 +165,7 @@ h2, h3 {
     text-decoration: none;
     font-family: "Oxygen", sans-serif;
     color: rgb(255, 255, 255);
-    font-size: 2rem;
+    font-size: 1.8rem;
     font-weight: 400;
 }
 
