@@ -195,3 +195,20 @@ h2, h3 {
     height: auto;
 }
 
+/* Seasons.html */
+
+.sectionEstaciones {
+    padding: 2rem;
+}
+
+.springFarmImage, .summerFarmImage, .autumnFarmImage, .winterFarmImage {
+    width: 45%;
+    height: auto;
+    margin: 1rem ;
+    border-radius: 2rem;
+}
+
+
+
+
+
