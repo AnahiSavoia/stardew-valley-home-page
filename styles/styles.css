@@ -199,6 +199,22 @@ h2, h3 {
 
 .sectionEstaciones {
     padding: 2rem;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 2rem;
+    margin-top: 4rem;
+}
+
+.tituloEstaciones {
+    font-family: "Abel", sans-serif;
+    font-weight: 700;
+    font-size: 5rem;
+}
+
+.textoEstaciones {
+    font-family: "Oxygen", sans-serif;
+    font-size: 1.6rem;
+    font-weight: 400;
 }
 
 .springFarmImage, .summerFarmImage, .autumnFarmImage, .winterFarmImage {
