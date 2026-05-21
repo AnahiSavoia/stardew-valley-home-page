@@ -159,8 +159,6 @@ h2, h3 {
     border-radius: 2rem;
 }
 
-
-
 .links-header a {
     text-decoration: none;
     font-family: "Oxygen", sans-serif;
@@ -172,13 +170,33 @@ h2, h3 {
 /*Footer*/
 
 .footer-container {
-    background-color: rgba(0, 0, 0, 0.6);
-    border-radius: 2rem;
-    padding: 2rem;
+    background-color: rgba(0, 0, 0, 1);   
+    padding: 4rem;  
 }
 
-footer {
+footer p {
     font-family: "Montserrat", sans-serif;
+    font-size: 1.2rem;
+}
+
+.div-form h3 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 2.2rem;
+}
+
+.links-footer {
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.4rem;
+}
+
+.links-footer ul li a:hover {
+    color: #e3d5ca !important;
+    transition: color 0.2s ease-in-out;
+}
+
+.links-footer ul li a {
+    transition: color 0.2s ease-in-out;
 }
 
 /*Logos*/
