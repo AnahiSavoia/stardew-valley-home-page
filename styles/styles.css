@@ -167,6 +167,41 @@ h2, h3 {
     font-weight: 400;
 }
 
+
+/* Seasons.html */
+
+.sectionEstaciones {
+    padding: 2rem;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 2rem;
+    margin-top: 4rem;
+    
+}
+
+.tituloEstaciones {
+    font-family: "Abel", sans-serif;
+    font-weight: 700;
+    font-size: 5rem;
+    color: #ffffff;
+    
+}
+
+.textoEstaciones {
+    font-family: "Oxygen", sans-serif;
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+.springFarmImage, .summerFarmImage, .autumnFarmImage, .winterFarmImage {
+    width: 45%;
+    height: auto;
+    margin: 1rem ;
+    border-radius: 2rem;
+}
+
+
 /*Footer*/
 
 .footer-container {
@@ -185,12 +220,17 @@ footer p {
     font-size: 2.2rem;
 }
 
+.button-suscribe {
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.2rem;
+}
+
 .links-footer {
     font-family: "Montserrat", sans-serif;
     font-size: 1.4rem;
 }
 
-.links-footer ul li a:hover {
+div.links-footer ul li a:hover {
     color: #e3d5ca !important;
     transition: color 0.2s ease-in-out;
 }
@@ -224,37 +264,5 @@ footer p {
     width: 24px;
     height: auto;
 }
-
-/* Seasons.html */
-
-.sectionEstaciones {
-    padding: 2rem;
-    align-items: center;
-    background-color: rgba(0, 0, 0, 0.2);
-    border-radius: 2rem;
-    margin-top: 4rem;
-}
-
-.tituloEstaciones {
-    font-family: "Abel", sans-serif;
-    font-weight: 700;
-    font-size: 5rem;
-}
-
-.textoEstaciones {
-    font-family: "Oxygen", sans-serif;
-    font-size: 1.6rem;
-    font-weight: 400;
-}
-
-.springFarmImage, .summerFarmImage, .autumnFarmImage, .winterFarmImage {
-    width: 45%;
-    height: auto;
-    margin: 1rem ;
-    border-radius: 2rem;
-}
-
-
-
 
 
