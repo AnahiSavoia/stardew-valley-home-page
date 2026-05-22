@@ -74,38 +74,54 @@ body {
     justify-content: space-around;
 }
 
-h1 {
-    font-family: "Abel", sans-serif;
-    font-size: 5rem;
-    text-align: center;
-    margin-top: 1rem;
-}
-
 h2, h3 {
     font-family: "Oxygen", sans-serif;
     font-weight: 400;
 }
 
+/*index.html*/
+
 /*First section*/
 
-.introduction {
+main {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 2rem;
+    padding: 2rem;
+    width: 90%;
+    margin: 2rem auto;
+}
+
+.h1Index {
+    font-family: "Abel", sans-serif;
+    font-size: 5rem;
+    text-align: center;
+    /* margin-top: 1.5rem; */
+    color: #e3d5ca;
+}
+
+.firstSection {
     display: flex;
     flex-direction: column;
     align-items: center;
     align-content: center;
+    margin-bottom: 2rem;
 }
 
-.introduction h2{
+.firstSection h2{
     font-family: "Abel", sans-serif;
     font-weight: 400;
     font-size: 3.1rem;
-    padding: 1rem;
+    padding: 1rem; ;
+    color: #ffffff;
+
 }
 
-.introduction p {
+.firstSection p {
     font-family: "Oxygen", sans-serif;
     font-size: 1.8rem;
-    margin: 0 6rem 4rem;
+    margin: 0 13rem 4rem;
+    text-align: center;
+    color: #ffffff;
 }
 
 /*Second section*/
@@ -113,11 +129,9 @@ h2, h3 {
 .to-do {
     display: grid;
     gap: 4rem;
-    margin: 3rem auto;
-    background-color: rgba(0, 0, 0, 0.5);
-    border-radius: 2rem;
-    padding: 4rem;
-    width: 90%;
+    
+    
+    
 }
 
 .friendship, .mines, .community-center {
@@ -162,7 +176,7 @@ h2, h3 {
 .links-header a {
     text-decoration: none;
     font-family: "Oxygen", sans-serif;
-    color: rgb(255, 255, 255);
+    color: #ffffff;
     font-size: 1.8rem;
     font-weight: 400;
 }
@@ -205,7 +219,7 @@ h2, h3 {
 /*Footer*/
 
 .footer-container {
-    background-color: rgba(0, 0, 0, 1);   
+    background-color: #000000;   
     padding: 4rem;  
 }
 
