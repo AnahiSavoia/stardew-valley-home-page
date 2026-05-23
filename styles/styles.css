@@ -134,9 +134,9 @@ main {
 
 .secondSection {
     display: grid;
-    gap: 2rem;
+    gap: 3rem;
     background-color: #0f0614ad;
-    padding: 2rem;
+    padding: 2rem 2rem 4rem 2rem;
     width: 90%;
     margin: 0rem auto;  
 }
@@ -144,7 +144,7 @@ main {
 .h2SecondSection {
     font-family: "Abel", sans-serif;
     font-weight: 400;
-    font-size: 3.1rem;
+    font-size: 3.8rem;
     padding: 1rem; ;
     color: #ffffff;
     text-align: center;
@@ -152,24 +152,25 @@ main {
 
 .secondSection p {
     color: #ffffff;
+    text-align: center;
 }
 
-.firstBlock, .secondBlock, .community-center {
+.firstBlock, .secondBlock, .thirdBlock {
     display: grid;
-    grid-template-columns: repeat(2, minmax(300px, 500px));
+    grid-template-columns: repeat(2, minmax(300px, 550px));
     gap: 2rem;
     place-items: center;
     justify-content: center;
-    margin-top: 3rem;
+    margin-top: 1rem;
 }
 
 .firstBlock img {
-    width: 60%;
+    width: 90%;
     height: auto;
     border-radius: 2rem;
 }
 
-.firstBlock p, .community-center p {
+.firstBlock p, .thirdBlock p {
     font-family: "Oxygen", sans-serif;
     font-size: 1.8rem;
     max-width: 50rem;
@@ -187,11 +188,38 @@ main {
     border-radius: 2rem;
 }
 
-.community-center  img {
-    width: 60%;
+.thirdBlock img {
+    width: 90%;
     height: auto;
     border-radius: 2rem;
 }
+
+/*Third Section*/
+
+.thirdSection {
+    gap: 3rem;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 2rem 2rem 4rem 2rem;
+    width: 90%;
+    margin: 0rem auto;
+    border-radius: 0 0 2rem 2rem;
+}
+
+.thirdSection div img {
+    width: 40%;
+    height: auto;
+    border-radius: 2rem;
+}
+
+.h2ThirdSection {
+    font-family: "Abel", sans-serif;
+    font-weight: 400;
+    font-size: 3.8rem;
+    padding: 1rem; ;
+    color: #ffffff;
+    text-align: center;
+}
+
 
 .links-header a {
     text-decoration: none;
