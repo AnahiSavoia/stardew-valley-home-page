@@ -5,11 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Stardew Valley - Home</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-    <link rel="stylesheet" href="./styles/styles.css">
-    
+    <link rel="stylesheet" href="./css/main.css">   
 </head>
 <body>
-        <header class="header">
+    <header class="header">
             <div class="header-container">
                 <nav class="redes-container">
                     <ul class="redes">
@@ -41,18 +40,23 @@
                     </ul>
                 </nav>   
                 <a href="#" class="stardew-valley-logo-container">
-                    <img class="stardew-valley-logo" src="./assets/stardew-valley-logo-modify.png" alt="Título del juego Stardew Valley en color amarillento con hojas verdes saliendo del mismo desde diversos sectores. Una gallina se encuentra parada encima de la letra D.">
+                    <img class="stardew-valley-logo img-fluid" src="./assets/stardew-valley-logo-modify.png" alt="Título del juego Stardew Valley en color amarillento con hojas verdes saliendo del mismo desde diversos sectores. Una gallina se encuentra parada encima de la letra D.">
                 </a>
             </div>
-            <div>
-                <nav class="links-header-container">
-                    <ul class="links-header">
-                        <li><a href="./pages/seasons.html">Estaciones</a></li>                   
-                        <li><a href="./pages/crops.html">Cultivos</a></li> 
-                        <li><a href="./pages/villagers.html">Aldeanos</a></li> 
-                        <li><a href="./pages/pierre-s-general-store.html">Tienda de Pierre</a></li>
-                        <li><a href="./pages/contact.html">Contacto</a></li> 
-                    </ul>
+            <div class="navbar navbar-expand-md navbar-dark">
+                <nav class="container-fluid links-header-container">
+                    <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#menuResponsive" aria-controls="menuResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-center" id="menuResponsive">
+                        <ul class="navbar-nav links-header">
+                            <li class="nav-item"><a class="nav-link" href="./pages/seasons.html">Estaciones</a></li>                  
+                            <li class="nav-item"><a class="nav-link" href="./pages/crops.html">Cultivos</a></li> 
+                            <li class="nav-item"><a class="nav-link" href="./pages/villagers.html">Aldeanos</a></li> 
+                            <li class="nav-item"><a class="nav-link" href="./pages/pierre-s-general-store.html">Tienda de Pierre</a></li>
+                            <li class="nav-item"><a class="nav-link" href="./pages/contact.html">Contacto</a></li> 
+                        </ul>
+                    </div>
                 </nav>
             </div>
         </header>

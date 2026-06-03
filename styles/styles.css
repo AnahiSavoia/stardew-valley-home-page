@@ -39,7 +39,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    position: relative;
+    
 }
 
 .redes-container {
@@ -328,5 +328,3 @@ div.links-footer ul li a:hover {
 }
 
 
-
-/*# sourceMappingURL=styles.css.map */
