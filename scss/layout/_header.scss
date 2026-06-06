@@ -1,41 +1,65 @@
 @use "../utilities/variables";
 
+/* Estilos generales Header */
+
 .header {
     background-image: url(../../assets/backgroundSV-header.jpg);
     background-size: cover;
     padding: 10px 0 20px 0;
-}
-
-.header-container {
+    position: relative;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-flow: row wrap;
 }
 
-.redes-container {
-    position: absolute;
-    top: 5px;
-    right: 10px;
-}
+// .header-container {
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
 
-.redes-container ul {
-    list-style: none;
-    display: flex;
-    margin: 0;
-    padding: 0;
-    gap: 8px;
-
-}
+// }
 
 .stardew-valley-logo-container {
     justify-content: center;
 }
 
-.links-header-container {
+/* Redes sociales */
+
+    .redes-container {
+        flex-flow: row wrap;
+
+        ul {
+    list-style: none;
     display: flex;
-    justify-content: center;
-    margin-top: 20px;
-}
+    margin: 0;
+    padding: 0;
+    gap: 8px;
+    }
+
+    }
+
+// .redes-container {
+//     position: absolute;
+//     top: 5px;
+//     right: 10px;
+
+//     ul {
+//     list-style: none;
+//     display: flex;
+//     margin: 0;
+//     padding: 0;
+//     gap: 8px;
+//     }
+
+// }
+
+
+// .links-header-container {
+//     display: flex;
+//     justify-content: center;
+//     margin-top: 20px;
+
+
+// }
 
 .links-header{
     list-style: none;
@@ -43,4 +67,18 @@
     flex-flow: row wrap;
     width: 100%;
     justify-content: space-around;
+
+    a {
+    text-decoration: none;
+    font-family: "Oxygen", sans-serif;
+    color: #ffffff;
+    font-size: 1.8rem;
+    font-weight: 400;
+    }
+}
+
+
+h2, h3 {
+    font-family: "Oxygen", sans-serif;
+    font-weight: 400;
 }

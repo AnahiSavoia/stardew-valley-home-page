@@ -1,21 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Abel&family=Istok+Web:ital,wght@0,400;0,700;1,400;1,700&family=Oxygen:wght@300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+/* Estilos generales Header */
 .header {
   background-image: url(../../assets/backgroundSV-header.jpg);
   background-size: cover;
   padding: 10px 0 20px 0;
-}
-
-.header-container {
+  position: relative;
   display: flex;
+  flex-flow: row wrap;
+}
+
+.stardew-valley-logo-container {
   justify-content: center;
-  align-items: center;
 }
 
+/* Redes sociales */
 .redes-container {
-  position: absolute;
-  top: 5px;
-  right: 10px;
+  flex-flow: row wrap;
 }
-
 .redes-container ul {
   list-style: none;
   display: flex;
@@ -24,22 +26,42 @@
   gap: 8px;
 }
 
-.stardew-valley-logo-container {
-  justify-content: center;
-}
-
-.links-header-container {
-  display: flex;
-  justify-content: center;
-  margin-top: 20px;
-}
-
 .links-header {
   list-style: none;
   display: flex;
   flex-flow: row wrap;
   width: 100%;
   justify-content: space-around;
+}
+.links-header a {
+  text-decoration: none;
+  font-family: "Oxygen", sans-serif;
+  color: #ffffff;
+  font-size: 1.8rem;
+  font-weight: 400;
+}
+
+h2, h3 {
+  font-family: "Oxygen", sans-serif;
+  font-weight: 400;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-image: url(../assets/stardewbackground.png);
+  background-size: cover;
+  background-position: center; /*Ojo que esto me hace ruido*/
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 /*# sourceMappingURL=main.css.map */
