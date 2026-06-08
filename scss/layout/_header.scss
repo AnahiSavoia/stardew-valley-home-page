@@ -5,10 +5,20 @@
 .header {
     background-image: url(../../assets/backgroundSV-header.jpg);
     background-size: cover;
-    padding: 10px 0 20px 0;
+    padding: 10px 10px 20px 10px;
     position: relative;
     display: flex;
-    flex-flow: row wrap;
+    flex-direction: column;
+
+    @media (max-width: 768px) {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        grid-template-rows: auto auto;
+        grid-template-areas: 
+            "logo logo"
+            "links redes";
+        
+    }
 }
 
 // .header-container {
@@ -20,12 +30,19 @@
 
 .stardew-valley-logo-container {
     justify-content: center;
+    align-self: center;
+
+    @media (max-width: 768px) {
+        grid-area: logo;
+    }
 }
 
 /* Redes sociales */
 
-    .redes-container {
-        flex-flow: row wrap;
+.redes-container {
+    flex-direction: row;
+    align-self: flex-end;
+    padding-right: 1.5rem;
 
         ul {
     list-style: none;
@@ -33,24 +50,35 @@
     margin: 0;
     padding: 0;
     gap: 8px;
+
+    @media (max-width: 768px) {
+        justify-content: flex-end;
+        justify-items: center;
+        }
     }
 
+    @media (max-width: 768px) {
+        grid-area: redes;
+        margin-top: 10px;
+        // justify-self: center;
+        align-self: center;
     }
 
-// .redes-container {
-//     position: absolute;
-//     top: 5px;
-//     right: 10px;
+}
 
-//     ul {
-//     list-style: none;
-//     display: flex;
-//     margin: 0;
-//     padding: 0;
-//     gap: 8px;
+// .instagram-logo, .facebook-logo, .x-logo, .spotify-logo, .youtube-logo {
+//     @media (max-width: 576px) {
+//         width: variables.$anchoLogoRedes;
+//         height: variables.$altoLogoRedes;
 //     }
-
+    
 // }
+
+.navbar {
+    @media (max-width: 768px) {
+        grid-area: links;
+    }
+}
 
 
 // .links-header-container {

@@ -4,19 +4,35 @@
 .header {
   background-image: url(../../assets/backgroundSV-header.jpg);
   background-size: cover;
-  padding: 10px 0 20px 0;
+  padding: 10px 10px 20px 10px;
   position: relative;
   display: flex;
-  flex-flow: row wrap;
+  flex-direction: column;
+}
+@media (max-width: 768px) {
+  .header {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: auto auto;
+    grid-template-areas: "logo logo" "links redes";
+  }
 }
 
 .stardew-valley-logo-container {
   justify-content: center;
+  align-self: center;
+}
+@media (max-width: 768px) {
+  .stardew-valley-logo-container {
+    grid-area: logo;
+  }
 }
 
 /* Redes sociales */
 .redes-container {
-  flex-flow: row wrap;
+  flex-direction: row;
+  align-self: flex-end;
+  padding-right: 1.5rem;
 }
 .redes-container ul {
   list-style: none;
@@ -24,6 +40,25 @@
   margin: 0;
   padding: 0;
   gap: 8px;
+}
+@media (max-width: 768px) {
+  .redes-container ul {
+    justify-content: flex-end;
+    justify-items: center;
+  }
+}
+@media (max-width: 768px) {
+  .redes-container {
+    grid-area: redes;
+    margin-top: 10px;
+    align-self: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    grid-area: links;
+  }
 }
 
 .links-header {
