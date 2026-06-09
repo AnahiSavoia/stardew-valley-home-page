@@ -1,0 +1,46 @@
+@use "../utilities/variables";
+
+.footer-container {
+    background-color: variables.$colorfondo;   
+    padding: 4rem;  
+}
+
+footer p {
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.2rem;
+}
+
+.div-form h3 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 2.2rem;
+}
+
+.button-suscribe {
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: black;
+    background-color: variables.$colorgamauno;
+    border: none;
+
+    &:hover {
+        background-color: variables.$colorgamados;
+        color: white;
+        transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+    }
+}
+
+.links-footer {
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.4rem;
+}
+
+div.links-footer ul li a:hover {
+    color: variables.$colorgamauno !important;
+    transition: color 0.2s ease-in-out;
+}
+
+.links-footer ul li a {
+    transition: color 0.2s ease-in-out;
+}
