@@ -67,14 +67,16 @@
 }
 
 // .instagram-logo, .facebook-logo, .x-logo, .spotify-logo, .youtube-logo {
-//     @media (max-width: 576px) {
-//         width: variables.$anchoLogoRedes;
-//         height: variables.$altoLogoRedes;
+//     @media (max-width: 480px) {
+        
 //     }
     
 // }
 
 .navbar {
+    margin-top: 10px;
+
+
     @media (max-width: 768px) {
         grid-area: links;
     }
@@ -95,11 +97,12 @@
     flex-flow: row wrap;
     width: 100%;
     justify-content: space-around;
+    
 
     a {
     text-decoration: none;
-    font-family: "Oxygen", sans-serif;
-    color: #ffffff;
+    font-family: variables.$fuentetexto;
+    color: variables.$colorgamauno;
     font-size: 1.8rem;
     font-weight: 400;
     }
@@ -107,6 +110,6 @@
 
 
 h2, h3 {
-    font-family: "Oxygen", sans-serif;
+    font-family: variables.$fuentetexto;
     font-weight: 400;
 }

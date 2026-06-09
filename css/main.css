@@ -55,6 +55,9 @@
   }
 }
 
+.navbar {
+  margin-top: 10px;
+}
 @media (max-width: 768px) {
   .navbar {
     grid-area: links;
@@ -71,7 +74,7 @@
 .links-header a {
   text-decoration: none;
   font-family: "Oxygen", sans-serif;
-  color: #ffffff;
+  color: #E0A100;
   font-size: 1.8rem;
   font-weight: 400;
 }
