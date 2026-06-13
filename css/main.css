@@ -336,6 +336,33 @@ div.links-footer ul li a:hover {
   }
 }
 
+@media (max-width: 768px) {
+  .firstBlock img {
+    order: 1;
+  }
+  .firstBlock p {
+    order: 2;
+  }
+}
+
+@media (max-width: 768px) {
+  .secondBlock img {
+    order: 3;
+  }
+  .secondBlock p {
+    order: 4;
+  }
+}
+
+@media (max-width: 768px) {
+  .thirdBlock img {
+    order: 5;
+  }
+  .thirdBlock p {
+    order: 6;
+  }
+}
+
 /*Third Section*/
 .thirdSection {
   gap: 3rem;
