@@ -1,4 +1,5 @@
 @use "../utilities/variables";
+@use "../utilities/globales";
 
 /*First section*/
 
@@ -7,6 +8,16 @@
     font-size: 5rem;
     text-align: center;
     color: variables.$colorgamauno;
+
+    @media (max-width: 480px) {
+        font-size: 3.5rem;
+    }
+}
+
+.trailer {
+    width: 100%;
+    max-width: 640px;
+    height: auto;
 }
 
 .firstSection {
@@ -22,23 +33,36 @@
     width: 90%;
     margin: 2rem auto 0rem auto;
 
+    @media (max-width: 480px) {
+        padding: 2rem;
+    }
+
     h2 {
     font-family: variables.$fuentesubtitulo;
     font-weight: 400;
     font-size: 3.1rem;
     padding: 1rem;
     color: variables.$colorgamauno;
+    text-align: center;
+
+    @media (max-width: 480px) {
+        font-size: 2.2rem;
+        }
     }
 
     p {
     font-family: variables.$fuentetexto;
     font-size: 1.8rem;
-    margin: 0 13rem 4rem;
+    margin: 0 2rem 2rem;
     text-align: center;
     color: variables.$colorbasicotexto;
+
+    @media (max-width: 480px) {
+        font-size: 1.6rem;
+        margin: 0 1rem 3rem 1rem;
+    }
     }
 }
-
 
 /*Second section*/
 
@@ -64,6 +88,8 @@
     text-align: center;
     }
 
+    
+
 }
 
 .firstBlock, .secondBlock, .thirdBlock {
@@ -73,9 +99,6 @@
     place-items: center;
     justify-content: center;
     margin-top: 1rem;
-}
-
-.firstBlock, .secondBlock, .thirdBlock {
 
     img {
     width: 90%;
@@ -87,6 +110,29 @@
     font-family: variables.$fuentetexto;
     font-size: 1.8rem;
     max-width: 50rem;
+    }
+
+    @media (max-width: 768px) {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+
+        img {
+        width: 100%;
+        max-width: 450px;
+        height: auto;
+        border-radius: 2rem;    
+        }
+
+        p {
+        font-family: variables.$fuentetexto;
+        font-size: 1.6rem;
+        max-width: 100%;
+        margin: 0;
+        }
     }
 }
 

@@ -216,6 +216,17 @@ div.links-footer ul li a:hover {
   text-align: center;
   color: #E0A100;
 }
+@media (max-width: 480px) {
+  .h1Index {
+    font-size: 3.5rem;
+  }
+}
+
+.trailer {
+  width: 100%;
+  max-width: 640px;
+  height: auto;
+}
 
 .firstSection {
   display: flex;
@@ -230,19 +241,36 @@ div.links-footer ul li a:hover {
   width: 90%;
   margin: 2rem auto 0rem auto;
 }
+@media (max-width: 480px) {
+  .firstSection {
+    padding: 2rem;
+  }
+}
 .firstSection h2 {
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
   font-size: 3.1rem;
   padding: 1rem;
   color: #E0A100;
+  text-align: center;
+}
+@media (max-width: 480px) {
+  .firstSection h2 {
+    font-size: 2.2rem;
+  }
 }
 .firstSection p {
   font-family: "Oxygen", sans-serif;
   font-size: 1.8rem;
-  margin: 0 13rem 4rem;
+  margin: 0 2rem 2rem;
   text-align: center;
   color: #ffffff;
+}
+@media (max-width: 480px) {
+  .firstSection p {
+    font-size: 1.6rem;
+    margin: 0 1rem 3rem 1rem;
+  }
 }
 
 /*Second section*/
@@ -275,7 +303,6 @@ div.links-footer ul li a:hover {
   justify-content: center;
   margin-top: 1rem;
 }
-
 .firstBlock img, .secondBlock img, .thirdBlock img {
   width: 90%;
   height: auto;
@@ -285,6 +312,28 @@ div.links-footer ul li a:hover {
   font-family: "Oxygen", sans-serif;
   font-size: 1.8rem;
   max-width: 50rem;
+}
+@media (max-width: 768px) {
+  .firstBlock, .secondBlock, .thirdBlock {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .firstBlock img, .secondBlock img, .thirdBlock img {
+    width: 100%;
+    max-width: 450px;
+    height: auto;
+    border-radius: 2rem;
+  }
+  .firstBlock p, .secondBlock p, .thirdBlock p {
+    font-family: "Oxygen", sans-serif;
+    font-size: 1.6rem;
+    max-width: 100%;
+    margin: 0;
+  }
 }
 
 /*Third Section*/
