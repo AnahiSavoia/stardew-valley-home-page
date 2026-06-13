@@ -10,10 +10,16 @@ html {
   font-size: 62.5%;
 }
 
+img, video, iframe {
+  max-width: 100%;
+  height: auto;
+}
+
 /* Estilos generales Header */
 .header {
   background-image: url(../../assets/backgroundSV-header.jpg);
   background-size: cover;
+  background-position: center;
   padding: 10px 10px 20px 10px;
   position: relative;
   display: flex;
@@ -22,27 +28,50 @@ html {
 @media (max-width: 768px) {
   .header {
     display: grid;
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: minmax 0, 2fr minmax 0, 1fr;
     grid-template-rows: auto auto;
     grid-template-areas: "logo logo" "links redes";
+  }
+}
+@media (max-width: 480px) {
+  .header {
+    display: grid;
+    grid-template-columns: minmax(0, 2fr) minmax(0, 1fr);
+    grid-template-rows: repeat(3, minmax 0, auto);
+    grid-template-areas: "logo logo" "boton redes" "links links";
   }
 }
 
 .stardew-valley-logo-container {
   justify-content: center;
   align-self: center;
+  text-align: center;
+  width: 100%;
 }
 @media (max-width: 768px) {
   .stardew-valley-logo-container {
     grid-area: logo;
+    padding: 10px 0;
   }
+}
+@media (max-width: 480px) {
+  .stardew-valley-logo-container {
+    grid-area: logo;
+    padding: 10px 0;
+  }
+}
+.stardew-valley-logo-container img {
+  max-width: 100%;
+  height: auto;
+  display: inline-block;
 }
 
 /* Redes sociales */
 .redes-container {
-  flex-direction: row;
-  align-self: flex-end;
+  justify-content: end;
   padding-right: 1.5rem;
+  justify-items: end;
+  align-items: start;
 }
 .redes-container ul {
   list-style: none;
@@ -57,20 +86,51 @@ html {
     justify-items: center;
   }
 }
+.redes-container ul img {
+  width: 24px;
+  height: auto;
+}
+@media (max-width: 480px) {
+  .redes-container ul img {
+    width: 20px;
+    height: auto;
+  }
+}
 @media (max-width: 768px) {
   .redes-container {
     grid-area: redes;
     margin-top: 10px;
     align-self: center;
+    padding-right: 10px;
+  }
+}
+@media (max-width: 768px) and (max-width: 480px) {
+  .redes-container {
+    grid-area: redes;
+    justify-self: end;
+    align-self: center;
   }
 }
 
 .navbar {
-  margin-top: 10px;
+  margin-top: 0px;
 }
 @media (max-width: 768px) {
   .navbar {
     grid-area: links;
+  }
+}
+@media (max-width: 480px) {
+  .navbar {
+    display: contents;
+  }
+}
+
+@media (max-width: 480px) {
+  .navbar-toggler, .btn-hamburguesa {
+    grid-area: boton;
+    justify-self: start;
+    align-self: center;
   }
 }
 
@@ -80,6 +140,14 @@ html {
   flex-flow: row wrap;
   width: 100%;
   justify-content: space-around;
+}
+@media (max-width: 480px) {
+  .links-header {
+    grid-area: links;
+    justify-content: center;
+    gap: 15px;
+    padding: 15px 0 0 0;
+  }
 }
 .links-header a {
   text-decoration: none;
@@ -103,18 +171,18 @@ body {
 }
 
 footer p {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Oxygen", sans-serif;
   font-size: 1.2rem;
 }
 
 .div-form h3 {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Oxygen", sans-serif;
   font-weight: 400;
   font-size: 2.2rem;
 }
 
 .button-suscribe {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Oxygen", sans-serif;
   font-size: 1.2rem;
   font-weight: 500;
   color: black;
@@ -128,7 +196,7 @@ footer p {
 }
 
 .links-footer {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Oxygen", sans-serif;
   font-size: 1.4rem;
 }
 
