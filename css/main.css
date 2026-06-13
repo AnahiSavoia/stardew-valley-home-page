@@ -160,7 +160,7 @@ img, video, iframe {
 body {
   background-image: url(../assets/stardewbackground.png);
   background-size: cover;
-  background-position: center; /*Ojo que esto me hace ruido*/
+  background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
@@ -176,7 +176,7 @@ footer p {
 }
 
 .div-form h3 {
-  font-family: "Oxygen", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 400;
   font-size: 2.2rem;
 }
@@ -207,6 +207,107 @@ div.links-footer ul li a:hover {
 
 .links-footer ul li a {
   transition: color 0.2s ease-in-out;
+}
+
+/*First section*/
+.h1Index {
+  font-family: "Abel", sans-serif;
+  font-size: 5rem;
+  text-align: center;
+  color: #E0A100;
+}
+
+.firstSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  margin-bottom: 2rem;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-top-left-radius: 2rem;
+  border-top-right-radius: 2rem;
+  padding: 3rem;
+  width: 90%;
+  margin: 2rem auto 0rem auto;
+}
+.firstSection h2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 3.1rem;
+  padding: 1rem;
+  color: #E0A100;
+}
+.firstSection p {
+  font-family: "Oxygen", sans-serif;
+  font-size: 1.8rem;
+  margin: 0 13rem 4rem;
+  text-align: center;
+  color: #ffffff;
+}
+
+/*Second section*/
+.secondSection {
+  display: grid;
+  gap: 3rem;
+  background-color: rgba(15, 6, 20, 0.6784313725);
+  padding: 2rem 2rem 4rem 2rem;
+  width: 90%;
+  margin: 0rem auto;
+}
+.secondSection h2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 3.4rem;
+  padding: 1rem;
+  color: #E0A100;
+  text-align: center;
+}
+.secondSection p {
+  color: #ffffff;
+  text-align: center;
+}
+
+.firstBlock, .secondBlock, .thirdBlock {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(300px, 550px));
+  gap: 2rem;
+  place-items: center;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.firstBlock img, .secondBlock img, .thirdBlock img {
+  width: 90%;
+  height: auto;
+  border-radius: 2rem;
+}
+.firstBlock p, .secondBlock p, .thirdBlock p {
+  font-family: "Oxygen", sans-serif;
+  font-size: 1.8rem;
+  max-width: 50rem;
+}
+
+/*Third Section*/
+.thirdSection {
+  gap: 3rem;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 2rem 2rem 4rem 2rem;
+  width: 90%;
+  margin: 0rem auto;
+  border-radius: 0 0 2rem 2rem;
+}
+.thirdSection h2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 3.4rem;
+  padding: 1rem;
+  color: #E0A100;
+  text-align: center;
+}
+.thirdSection div img {
+  width: 40%;
+  height: auto;
+  border-radius: 2rem;
 }
 
 /*# sourceMappingURL=main.css.map */

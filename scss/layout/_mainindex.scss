@@ -1,0 +1,118 @@
+@use "../utilities/variables";
+
+/*First section*/
+
+.h1Index {
+    font-family: variables.$fuentetitulo;
+    font-size: 5rem;
+    text-align: center;
+    color: variables.$colorgamauno;
+}
+
+.firstSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    margin-bottom: 2rem;
+    background-color: variables.$bgcolorlight;
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+    padding: 3rem;
+    width: 90%;
+    margin: 2rem auto 0rem auto;
+
+    h2 {
+    font-family: variables.$fuentesubtitulo;
+    font-weight: 400;
+    font-size: 3.1rem;
+    padding: 1rem;
+    color: variables.$colorgamauno;
+    }
+
+    p {
+    font-family: variables.$fuentetexto;
+    font-size: 1.8rem;
+    margin: 0 13rem 4rem;
+    text-align: center;
+    color: variables.$colorbasicotexto;
+    }
+}
+
+
+/*Second section*/
+
+.secondSection {
+    display: grid;
+    gap: 3rem;
+    background-color: variables.$bgcolordark;
+    padding: 2rem 2rem 4rem 2rem;
+    width: 90%;
+    margin: 0rem auto; 
+    
+    h2 {
+    font-family: variables.$fuentesubtitulo;
+    font-weight: 400;
+    font-size: variables.$tamañosubtitulo;
+    padding: 1rem; ;
+    color: variables.$colorgamauno;
+    text-align: center;
+    }
+
+    p {
+    color: variables.$colorbasicotexto;
+    text-align: center;
+    }
+
+}
+
+.firstBlock, .secondBlock, .thirdBlock {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(300px, 550px));
+    gap: 2rem;
+    place-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.firstBlock, .secondBlock, .thirdBlock {
+
+    img {
+    width: 90%;
+    height: auto;
+    border-radius: 2rem;
+    }
+
+    p {
+    font-family: variables.$fuentetexto;
+    font-size: 1.8rem;
+    max-width: 50rem;
+    }
+}
+
+/*Third Section*/
+
+.thirdSection {
+    gap: 3rem;
+    background-color: variables.$bgcolorlight;
+    padding: 2rem 2rem 4rem 2rem;
+    width: 90%;
+    margin: 0rem auto;
+    border-radius: 0 0 2rem 2rem;
+
+    h2 {
+    font-family: variables.$fuentesubtitulo;
+    font-weight: 400;
+    font-size: variables.$tamañosubtitulo;
+    padding: 1rem; ;
+    color: variables.$colorgamauno;
+    text-align: center;
+    }
+
+    div img {
+    width: 40%;
+    height: auto;
+    border-radius: 2rem;
+    }
+}
+
