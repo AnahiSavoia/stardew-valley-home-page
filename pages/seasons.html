@@ -60,7 +60,7 @@
         </header>
     <main class="container">
         <section class="row sectionEstaciones">
-            <div class="col-lg-5 estacionesDiv">
+            <div class="col-lg-5 estacionesDiv d-none d-md-block">
                 <h1 class="tituloEstaciones">Estaciones</h1>
                 <p class="textoEstaciones">Hay cuatro estaciones en Stardew Valley: primavera, verano, otoño e invierno. Cada estación dura 28 días y tiene su propio estilo visual. El juego empieza el primer día de primavera y, tras completar un ciclo de estaciones, avanza un año para comenzar nuevamente la primavera. Los años están ligados a algunos acontecimientos, pero no hay límite en el número de años que se pueden jugar. Las rutinas diarias de un aldeano pueden cambiar con una nueva estación o con algunos sucesos. <br>
                 <br>               
@@ -68,14 +68,53 @@
                 La mayoría de los cultivos, artículos de recolección y peces sólo están disponibles durante su estación o estaciones concretas. La selección de semillas disponible en la tienda local Pierre's (o MercaJoja) cambia cada estación.
                 <br>
                 <br>
-                Algunas zonas no se ven afectadas por las estaciones, como las zonas interiores y subterráneas, el desierto y la Isla Jengibre.</p>
+                Algunas zonas no se ven afectadas por las estaciones, como las zonas interiores y subterráneas, el desierto y la Isla Jengibre.
+                </p>
             </div>
-            <div class="col-lg-7 estacionesImagenes">
+            <div class="d-none d-md-inline-block col-lg-7 estacionesImagenes">
                 <img class="springFarmImage d-inline-block" src="../assets/springFarm--.jpg" alt="Imagen de la estación de Primavera en Stardew Valley">
                 <img class="summerFarmImage d-inline-block" src="../assets/summerFarm--.jpg" alt="Imagen de la estación de Verano en Stardew Valley">
                 <img class="autumnFarmImage d-inline-block" src="../assets/autumnFarm--.jpg" alt="Imagen de la estación de Otoño en Stardew Valley">
                 <img class="winterFarmImage d-inline-block" src="../assets/winterFarm--.jpg" alt="Imagen de la estación de Invierno en Stardew Valley">
             </div>
+            <div class="col-12 d-block d-md-none estacionesDivMobile">            
+                <h1 class="tituloEstaciones">Estaciones</h1>
+            <div id="carouselExampleControls" class="carousel slide d-block d-md-none order-2" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="../assets/springFarm--.jpg" class="d-block w-100" alt="Imagen de la estación de Primavera en Stardew Valley">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="../assets/summerFarm--.jpg" class="d-block w-100" alt="Imagen de la estación de Verano en Stardew Valley">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="../assets/autumnFarm--.jpg" class="d-block w-100" alt="Imagen de la estación de Otoño en Stardew Valley">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="../assets/winterFarm--.jpg" class="d-block w-100" alt="Imagen de la estación de Invierno en Stardew Valley">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+            <div>
+                <p class="mt-4 textoEstaciones">Hay cuatro estaciones en Stardew Valley: primavera, verano, otoño e invierno. Cada estación dura 28 días y tiene su propio estilo visual. El juego empieza el primer día de primavera y, tras completar un ciclo de estaciones, avanza un año para comenzar nuevamente la primavera. Los años están ligados a algunos acontecimientos, pero no hay límite en el número de años que se pueden jugar. Las rutinas diarias de un aldeano pueden cambiar con una nueva estación o con algunos sucesos. <br>
+                <br>               
+                La primavera, el verano y el otoño tienen dos días festivos, mientras que el invierno tiene cinco. En los festivales, la comunidad de Pueblo Pelícano se reúne para realizar actividades especiales. Se puede comprar objetos especiales, jugar, ganar premios y obtener información.<br>
+                La mayoría de los cultivos, artículos de recolección y peces sólo están disponibles durante su estación o estaciones concretas. La selección de semillas disponible en la tienda local Pierre's (o MercaJoja) cambia cada estación.
+                <br>
+                <br>
+                Algunas zonas no se ven afectadas por las estaciones, como las zonas interiores y subterráneas, el desierto y la Isla Jengibre.
+                </p>
+                </div>
+            
+            
         </section>
     </main>
 <div class="container-fluid border-top mt-5 py-5 footer-container">
