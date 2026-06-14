@@ -386,4 +386,33 @@ div.links-footer ul li a:hover {
   border-radius: 2rem;
 }
 
+.sectionEstaciones {
+  padding: 2rem;
+  align-items: center;
+  background-color: rgba(15, 6, 20, 0.6784313725);
+  border-radius: 2rem;
+  margin-top: 4rem;
+}
+
+.tituloEstaciones {
+  font-family: "Abel", sans-serif;
+  font-weight: 700;
+  font-size: 5rem;
+  color: #E0A100;
+}
+
+.textoEstaciones {
+  font-family: "Oxygen", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+.springFarmImage, .summerFarmImage, .autumnFarmImage, .winterFarmImage {
+  width: 45%;
+  height: auto;
+  margin: 1rem;
+  border-radius: 2rem;
+}
+
 /*# sourceMappingURL=main.css.map */

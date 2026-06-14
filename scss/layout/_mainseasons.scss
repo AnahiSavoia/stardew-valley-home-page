@@ -1,24 +1,24 @@
-/* Seasons.html */
+@use "../utilities/variables";
 
 .sectionEstaciones {
     padding: 2rem;
     align-items: center;
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: variables.$bgcolordark;
     border-radius: 2rem;
     margin-top: 4rem;
     
 }
 
 .tituloEstaciones {
-    font-family: "Abel", sans-serif;
+    font-family: variables.$fuentetitulo;
     font-weight: 700;
     font-size: 5rem;
-    color: #ffffff;
+    color: variables.$colorgamauno;
     
 }
 
 .textoEstaciones {
-    font-family: "Oxygen", sans-serif;
+    font-family: variables.$fuentetexto;
     font-size: 1.6rem;
     font-weight: 400;
     color: #ffffff;
@@ -30,6 +30,3 @@
     margin: 1rem ;
     border-radius: 2rem;
 }
-
-
-
