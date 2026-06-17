@@ -430,6 +430,16 @@ div.links-footer ul li a:hover {
   border-radius: 2rem;
 }
 
+/*Fondo negro con transparencia*/
+.divContainerVillagers {
+  background-color: rgba(0, 0, 0, 0.5);
+  border-top-left-radius: 2rem;
+  border-top-right-radius: 2rem;
+  padding: 3rem;
+  width: 90%;
+  margin: 2rem auto 0rem auto;
+}
+
 /*Titulo y texto principal*/
 .tituloVillagers {
   font-family: "Abel", sans-serif;
@@ -444,7 +454,7 @@ div.links-footer ul li a:hover {
   font-size: 1.6rem;
   text-align: center;
   margin: 0 2.2rem 1.5rem;
-  color: black;
+  color: #ffffff;
 }
 
 /*Carousel*/
@@ -472,6 +482,14 @@ div.links-footer ul li a:hover {
 .nombreSoltera {
   font-family: "Montserrat", sans-serif;
   color: #E0A100;
+  font-size: 1.9rem;
+}
+
+.textoSoltera {
+  font-family: "Oxygen", sans-serif;
+  font-size: 1.4rem;
+  margin: 0 2.2rem;
+  color: #ffffff;
 }
 
 /*# sourceMappingURL=main.css.map */

@@ -1,5 +1,17 @@
 @use "../utilities/variables";
 
+    /*Fondo negro con transparencia*/
+    
+    .divContainerVillagers {
+        background-color: variables.$bgcolorlight;
+        border-top-left-radius: 2rem;
+        border-top-right-radius: 2rem;
+        padding: 3rem;
+        width: 90%;
+        margin: 2rem auto 0rem auto;
+    }
+
+
     /*Titulo y texto principal*/
 
     .tituloVillagers {
@@ -15,7 +27,7 @@
         font-size: 1.6rem;
         text-align: center;
         margin: 0 2.2rem 1.5rem;
-        color: variables.$colorbasicotexto2;
+        color: variables.$colorbasicotexto;
     }
 
     /*Carousel*/
@@ -46,5 +58,12 @@
     .nombreSoltera {
         font-family: variables.$fuentesubtitulo;
         color: variables.$colorgamauno;
+        font-size: 1.9rem;
+    }
 
+    .textoSoltera {
+        font-family: variables.$fuentetexto;
+        font-size: 1.4rem;
+        margin: 0 2.2rem;
+        color: variables.$colorbasicotexto;
     }
