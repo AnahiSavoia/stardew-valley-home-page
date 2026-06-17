@@ -290,6 +290,11 @@ div.links-footer ul li a:hover {
   color: #E0A100;
   text-align: center;
 }
+@media (max-width: 480px) {
+  .secondSection h2 {
+    font-size: 2.2rem;
+  }
+}
 .secondSection p {
   color: #ffffff;
   text-align: center;
@@ -333,6 +338,11 @@ div.links-footer ul li a:hover {
     font-size: 1.6rem;
     max-width: 100%;
     margin: 0;
+  }
+}
+@media (max-width: 480px) {
+  .firstBlock, .secondBlock, .thirdBlock {
+    margin-top: 0;
   }
 }
 
@@ -380,6 +390,11 @@ div.links-footer ul li a:hover {
   color: #E0A100;
   text-align: center;
 }
+@media (max-width: 480px) {
+  .thirdSection h2 {
+    font-size: 2.6rem;
+  }
+}
 .thirdSection div img {
   width: 40%;
   height: auto;
@@ -415,9 +430,41 @@ div.links-footer ul li a:hover {
   border-radius: 2rem;
 }
 
-.haley img {
-  width: 24px;
-  height: auto;
+/*Titulo y texto principal*/
+.tituloVillagers {
+  font-family: "Abel", sans-serif;
+  color: #E0A100;
+  font-size: 3rem;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.textoVillagers {
+  font-family: "Oxygen", sans-serif;
+  font-size: 1.3rem;
+  text-align: center;
+  margin: 0 2.2rem 1.5rem;
+  color: black;
+}
+
+/*Carousel*/
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  filter: invert(1) grayscale(100%);
+  opacity: 0.8;
+}
+.carousel-control-prev-icon:hover,
+.carousel-control-next-icon:hover {
+  opacity: 1;
+}
+
+/*Subtitulos general*/
+.tituloSolteras {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  text-align: center;
+  color: #074C1A;
+  margin: 1.9rem 0;
 }
 
 /*# sourceMappingURL=main.css.map */

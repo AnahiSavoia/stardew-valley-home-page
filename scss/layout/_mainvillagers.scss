@@ -1,8 +1,41 @@
 @use "../utilities/variables";
 
-.haley {
-    img {
-        width: 24px;
-        height: auto;
+    /*Titulo y texto principal*/
+
+    .tituloVillagers {
+        font-family: variables.$fuentetitulo;
+        color: variables.$colorgamauno ;
+        font-size: 3rem;
+        text-align: center;
+        margin-top: 1rem;
     }
-}
+
+    .textoVillagers {
+        font-family: variables.$fuentetexto;
+        font-size: 1.3rem;
+        text-align: center;
+        margin: 0 2.2rem 1.5rem;
+        color: variables.$colorbasicotexto2;
+    }
+
+    /*Carousel*/
+
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+        filter: invert(1) grayscale(100%); 
+        opacity: 0.8;                     
+
+        &:hover {
+            opacity: 1;                    
+        }
+    }
+
+    /*Subtitulos general*/
+
+    .tituloSolteras {
+        font-family: variables.$fuentesubtitulo;
+        font-weight: 700;
+        text-align: center;
+        color: variables.$colorgamatres;
+        margin: 1.9rem 0;
+    }
