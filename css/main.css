@@ -469,7 +469,7 @@ div.links-footer ul li a:hover {
 }
 
 /*Titulos y texto del carousel*/
-div.nombreSoltera {
+.nombreSoltera {
   font-family: "Montserrat", sans-serif;
   color: #E0A100;
 }
