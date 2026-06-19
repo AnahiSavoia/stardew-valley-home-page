@@ -17,7 +17,7 @@ img, video, iframe {
 
 /* Estilos generales Header */
 .header {
-  background-image: url(../../assets/backgroundSV-header.jpg);
+  background-image: url(../assets/backgroundSV-header.jpg);
   background-size: cover;
   background-position: center;
   padding: 10px 10px 20px 10px;
@@ -163,6 +163,11 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
+}
+@media (max-width: 768px) {
+  body {
+    background-attachment: scroll;
+  }
 }
 
 .footer-container {
