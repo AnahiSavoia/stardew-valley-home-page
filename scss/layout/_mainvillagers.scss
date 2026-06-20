@@ -3,9 +3,8 @@
     /*Fondo negro con transparencia*/
     
     .divContainerVillagers {
-        background-color: variables.$bgcolorlight;
-        border-top-left-radius: 2rem;
-        border-top-right-radius: 2rem;
+        background-color: variables.$bgcolordark;
+        border-radius: 2rem;
         padding: 3rem;
         width: 90%;
         margin: 2rem auto 0rem auto;
@@ -48,7 +47,7 @@
 
     /*Subtitulos solteras-solteros-aldeanos- general*/
 
-    .tituloSolteras, .tituloSolteros, .tituloAldeanas {
+    .tituloSolteras, .tituloSolteros, .tituloAldeanas, .tituloAldeanos, .tituloOtros {
         font-family: variables.$fuentesubtitulo;
         font-weight: 700;
         font-size: 2.3rem;
@@ -59,13 +58,13 @@
 
     /*Titulos y texto del carousel*/
 
-    .nombreSoltera, .nombreSoltero, .nombreAldeana {
+    .nombreSoltera, .nombreSoltero, .nombreAldeana, .nombreAldeano, .nombreOtro {
         font-family: variables.$fuentesubtitulo;
         color: variables.$colorgamauno;
         font-size: 1.9rem;
     }
 
-    .textoSoltera, .textoSoltero, .textoAldeana {
+    .textoSoltera, .textoSoltero, .textoAldeana, .textoAldeano, .textoOtro {
         font-family: variables.$fuentetexto;
         font-size: 1.4rem;
         margin: 0 2.2rem;

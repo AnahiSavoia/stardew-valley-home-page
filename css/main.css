@@ -432,9 +432,8 @@ div.links-footer ul li a:hover {
 
 /*Fondo negro con transparencia*/
 .divContainerVillagers {
-  background-color: rgba(0, 0, 0, 0.5);
-  border-top-left-radius: 2rem;
-  border-top-right-radius: 2rem;
+  background-color: rgba(15, 6, 20, 0.6784313725);
+  border-radius: 2rem;
   padding: 3rem;
   width: 90%;
   margin: 2rem auto 0rem auto;
@@ -473,7 +472,7 @@ div.links-footer ul li a:hover {
 }
 
 /*Subtitulos solteras-solteros-aldeanos- general*/
-.tituloSolteras, .tituloSolteros, .tituloAldeanas {
+.tituloSolteras, .tituloSolteros, .tituloAldeanas, .tituloAldeanos, .tituloOtros {
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
   font-size: 2.3rem;
@@ -483,13 +482,13 @@ div.links-footer ul li a:hover {
 }
 
 /*Titulos y texto del carousel*/
-.nombreSoltera, .nombreSoltero, .nombreAldeana {
+.nombreSoltera, .nombreSoltero, .nombreAldeana, .nombreAldeano, .nombreOtro {
   font-family: "Montserrat", sans-serif;
   color: #E0A100;
   font-size: 1.9rem;
 }
 
-.textoSoltera, .textoSoltero, .textoAldeana {
+.textoSoltera, .textoSoltero, .textoAldeana, .textoAldeano, .textoOtro {
   font-family: "Oxygen", sans-serif;
   font-size: 1.4rem;
   margin: 0 2.2rem;
