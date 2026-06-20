@@ -164,11 +164,6 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
-@media (max-width: 768px) {
-  body {
-    background-attachment: scroll;
-  }
-}
 
 .footer-container {
   background-color: black;
@@ -448,8 +443,9 @@ div.links-footer ul li a:hover {
 /*Titulo y texto principal*/
 .tituloVillagers {
   font-family: "Abel", sans-serif;
-  color: #E0A100;
+  color: #0EA111;
   font-size: 3.4rem;
+  font-weight: 700;
   text-align: center;
   margin-top: 1rem;
 }
@@ -474,23 +470,23 @@ div.links-footer ul li a:hover {
 }
 
 /*Subtitulos solteras-solteros-aldeanos- general*/
-.tituloSolteras {
+.tituloSolteras, .tituloSolteros {
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
   font-size: 2.3rem;
   text-align: center;
-  color: #074C1A;
-  margin: 1.9rem 0;
+  color: #E0A100;
+  margin: 2.5rem 0 0.9rem;
 }
 
 /*Titulos y texto del carousel*/
-.nombreSoltera {
+.nombreSoltera, .nombreSoltero {
   font-family: "Montserrat", sans-serif;
   color: #E0A100;
   font-size: 1.9rem;
 }
 
-.textoSoltera {
+.textoSoltera, .textoSoltero {
   font-family: "Oxygen", sans-serif;
   font-size: 1.4rem;
   margin: 0 2.2rem;

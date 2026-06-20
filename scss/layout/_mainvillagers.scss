@@ -16,8 +16,9 @@
 
     .tituloVillagers {
         font-family: variables.$fuentetitulo;
-        color: variables.$colorgamauno ;
+        color: variables.$colorgamados;
         font-size: 3.4rem;
+        font-weight: 700;
         text-align: center;
         margin-top: 1rem;
     }
@@ -44,24 +45,24 @@
 
     /*Subtitulos solteras-solteros-aldeanos- general*/
 
-    .tituloSolteras {
+    .tituloSolteras, .tituloSolteros {
         font-family: variables.$fuentesubtitulo;
         font-weight: 700;
         font-size: 2.3rem;
         text-align: center;
-        color: variables.$colorgamatres;
-        margin: 1.9rem 0;
+        color: variables.$colorgamauno;
+        margin: 2.5rem 0 0.9rem;
     }
 
     /*Titulos y texto del carousel*/
 
-    .nombreSoltera {
+    .nombreSoltera, .nombreSoltero {
         font-family: variables.$fuentesubtitulo;
         color: variables.$colorgamauno;
         font-size: 1.9rem;
     }
 
-    .textoSoltera {
+    .textoSoltera, .textoSoltero {
         font-family: variables.$fuentetexto;
         font-size: 1.4rem;
         margin: 0 2.2rem;
