@@ -9,8 +9,11 @@
         padding: 3rem;
         width: 90%;
         margin: 2rem auto 0rem auto;
-    }
 
+        .carousel-item {
+            min-height: 300px;
+        }
+    }
 
     /*Titulo y texto principal*/
 
@@ -45,7 +48,7 @@
 
     /*Subtitulos solteras-solteros-aldeanos- general*/
 
-    .tituloSolteras, .tituloSolteros {
+    .tituloSolteras, .tituloSolteros, .tituloAldeanas {
         font-family: variables.$fuentesubtitulo;
         font-weight: 700;
         font-size: 2.3rem;
@@ -56,13 +59,13 @@
 
     /*Titulos y texto del carousel*/
 
-    .nombreSoltera, .nombreSoltero {
+    .nombreSoltera, .nombreSoltero, .nombreAldeana {
         font-family: variables.$fuentesubtitulo;
         color: variables.$colorgamauno;
         font-size: 1.9rem;
     }
 
-    .textoSoltera, .textoSoltero {
+    .textoSoltera, .textoSoltero, .textoAldeana {
         font-family: variables.$fuentetexto;
         font-size: 1.4rem;
         margin: 0 2.2rem;
