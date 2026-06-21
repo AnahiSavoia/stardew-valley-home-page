@@ -495,4 +495,9 @@ div.links-footer ul li a:hover {
   color: #ffffff;
 }
 
+/*Cards*/
+.card {
+  background-color: transparent;
+}
+
 /*# sourceMappingURL=main.css.map */
