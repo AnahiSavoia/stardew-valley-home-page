@@ -486,6 +486,7 @@ div.links-footer ul li a:hover {
   font-family: "Montserrat", sans-serif;
   color: #E0A100;
   font-size: 1.9rem;
+  text-align: center;
 }
 
 .textoSoltera, .textoSoltero, .textoAldeana, .textoAldeano, .textoOtro {
@@ -493,11 +494,27 @@ div.links-footer ul li a:hover {
   font-size: 1.4rem;
   margin: 0 2.2rem;
   color: #ffffff;
+  text-align: center;
 }
 
 /*Cards*/
 .card {
-  background-color: transparent;
+  background-color: rgba(0, 0, 0, 0.5);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 15px;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+  border-color: rgba(255, 255, 255, 0.3);
+}
+.card img {
+  width: auto;
+  max-width: 120px;
+  height: auto;
+  margin: 1.5rem auto 0 auto;
+  image-rendering: pixelated;
 }
 
 /*# sourceMappingURL=main.css.map */
