@@ -11,6 +11,16 @@
     margin: 2rem auto 0rem auto;
 }
 
+.buzonrobinbg {
+    background-color: variables.$bgcolordark;
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    padding: 2rem;
+    width: 90%;
+    margin: 0rem auto 0rem auto;
+
+}
+
 // TITULO
 
 .h1Contacto {
@@ -21,9 +31,9 @@
 
 }
 
-// BUZON ALCALDÍA
+// BUZON ALCALDÍA - BUZON ROBIN
 
-.subtituloBuzonAlcaldia {
+.subtituloBuzonAlcaldia, .subtituloBuzonRobin {
     font-family: variables.$fuentesubtitulo;
     font-size: 1.8rem;
     text-align: center;
@@ -31,12 +41,16 @@
     margin-top: 1.6rem;
 }
 
-.textoBuzonAlcaldia {
+.subtituloBuzonRobin {
+    margin-top: 0rem;
+}
+
+.textoBuzonAlcaldia, .textoBuzonRobin {
     font-family: variables.$fuentetexto;
     font-size: 1.4rem;
     color: variables.$colorbasicotexto;
     text-align: center;
-    margin: 1.5rem 0.5;
+    margin: 1rem 0.5rem;
 }
 
 .btn {
@@ -64,4 +78,3 @@
     }
 }
 
-// BUZON PARA ROBIN

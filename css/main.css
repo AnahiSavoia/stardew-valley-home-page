@@ -526,6 +526,15 @@ div.links-footer ul li a:hover {
   margin: 2rem auto 0rem auto;
 }
 
+.buzonrobinbg {
+  background-color: rgba(15, 6, 20, 0.6784313725);
+  border-bottom-left-radius: 2rem;
+  border-bottom-right-radius: 2rem;
+  padding: 2rem;
+  width: 90%;
+  margin: 0rem auto 0rem auto;
+}
+
 .h1Contacto {
   font-family: "Abel", sans-serif;
   font-size: 2.5rem;
@@ -533,7 +542,7 @@ div.links-footer ul li a:hover {
   color: #E0A100;
 }
 
-.subtituloBuzonAlcaldia {
+.subtituloBuzonAlcaldia, .subtituloBuzonRobin {
   font-family: "Montserrat", sans-serif;
   font-size: 1.8rem;
   text-align: center;
@@ -541,12 +550,16 @@ div.links-footer ul li a:hover {
   margin-top: 1.6rem;
 }
 
-.textoBuzonAlcaldia {
+.subtituloBuzonRobin {
+  margin-top: 0rem;
+}
+
+.textoBuzonAlcaldia, .textoBuzonRobin {
   font-family: "Oxygen", sans-serif;
   font-size: 1.4rem;
   color: #ffffff;
   text-align: center;
-  margin: 1.5rem 0.5;
+  margin: 1rem 0.5rem;
 }
 
 .btn {
