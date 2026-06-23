@@ -1,2 +1,67 @@
 @use "../utilities/variables";
 
+// FONDO
+
+.buzonalcaldiabg {
+    background-color: variables.$bgcolorlight;
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+    padding: 3rem;
+    width: 90%;
+    margin: 2rem auto 0rem auto;
+}
+
+// TITULO
+
+.h1Contacto {
+    font-family: variables.$fuentetitulo;
+    font-size: 2.5rem;
+    text-align: center;
+    color: variables.$colorgamauno;
+
+}
+
+// BUZON ALCALDÍA
+
+.subtituloBuzonAlcaldia {
+    font-family: variables.$fuentesubtitulo;
+    font-size: 1.8rem;
+    text-align: center;
+    color: variables.$colorgamauno;
+    margin-top: 1.6rem;
+}
+
+.textoBuzonAlcaldia {
+    font-family: variables.$fuentetexto;
+    font-size: 1.4rem;
+    color: variables.$colorbasicotexto;
+    text-align: center;
+    margin: 1.5rem 0.5;
+}
+
+.btn {
+    font-family: variables.$fuentetexto;
+    font-size: 1.1rem;
+    transition: color 0.1s ease-in-out, background-color 0.1s ease-in-out;
+
+    &:hover {
+        color: white !important;
+        background-color: variables.$colorgamados;
+        border-color: variables.$colorgamatres;
+    }
+}
+
+.form-label {
+    font-family: variables.$fuentetexto;
+    font-size: 1.4rem;
+    color: variables.$colorbasicotexto;
+}
+
+.form-control {
+    &::placeholder {
+    font-family: variables.$fuentetexto;
+    font-size: 1rem;
+    }
+}
+
+// BUZON PARA ROBIN

@@ -58,19 +58,30 @@
             </div>
         </header>
     <main>
-        <!------------------------------------- FORMULARIO ALCALDIA --------------------------------->
-        <div class="mb-3">
-            <label for="inputNombre" class="form-label">Nombre</label>
-            <input type="text" class="form-control" id="inputNombre" placeholder="Tu nombre o el de tu granja" required>
-        </div>
-        <div class="mb-3">
-            <label for="inputAsunto" class="form-label">Asunto</label>
-            <input type="text" class="form-control" id="inputAsunto" placeholder="¿De qué trata tu mensaje?" required>
-        </div>
-        <div class="mb-3">
-            <label for="textareaComentarios" class="form-label">Comentarios</label>
-            <textarea class="form-control" id="textareaComentarios" rows="5" placeholder="Escribí acá tu mensaje detallado..." required></textarea>
-        </div>
+        <div class="buzonalcaldiabg">
+            <h1 class="h1Contacto">Buzón de Stardew Valley</h1>
+            <!------------------------------------- FORMULARIO ALCALDIA --------------------------------->
+            <h2 class="subtituloBuzonAlcaldia">Cartas a la alcaldía</h2>
+            <p class="textoBuzonAlcaldia">¿Tenés algún reclamo sobre el estado de los caminos, o quizás un mensaje de agradecimiento para el <strong>Alcalde Lewis</strong>? 
+            Dejale una carta en el buzón comunal. ¡Estará más que encantado de leerla y ayudarte a resolver cualquier asunto en el valle!</p>
+            <form action="">
+                <div class="mb-3">
+                    <label for="inputNombre" class="form-label">Nombre</label>
+                    <input type="text" class="form-control" id="inputNombre" placeholder="Tu nombre o el de tu granja" required>
+                </div>
+                <div class="mb-3">
+                    <label for="inputAsunto" class="form-label">Asunto</label>
+                    <input type="text" class="form-control" id="inputAsunto" placeholder="¿De qué trata tu mensaje?" required>
+                </div>
+                <div class="mb-3">
+                    <label for="textareaComentarios" class="form-label">Comentarios</label>
+                    <textarea class="form-control" id="textareaComentarios" rows="5" placeholder="Escribí acá tu mensaje detallado..." required></textarea>
+                </div>
+                <div class="text-center mt-4">
+                    <button type="submit" class="btn btn-warning px-5 fw-bold text-dark">Enviar Carta</button>
+                </div>
+            </div>
+        </form>
         <!------------------------------------ FORMULARIO PARA ROBIN ---------------------------->
     </main>
 <div class="container-fluid border-top mt-5 py-5 footer-container">
