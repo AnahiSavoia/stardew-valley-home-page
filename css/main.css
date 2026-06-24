@@ -537,14 +537,14 @@ div.links-footer ul li a:hover {
 
 .h1Contacto {
   font-family: "Abel", sans-serif;
-  font-size: 2.5rem;
+  font-size: 2.7rem;
   text-align: center;
   color: #E0A100;
 }
 
 .subtituloBuzonAlcaldia, .subtituloBuzonRobin {
   font-family: "Montserrat", sans-serif;
-  font-size: 1.8rem;
+  font-size: 2.3rem;
   text-align: center;
   color: #E0A100;
   margin-top: 1.6rem;
@@ -556,7 +556,7 @@ div.links-footer ul li a:hover {
 
 .textoBuzonAlcaldia, .textoBuzonRobin {
   font-family: "Oxygen", sans-serif;
-  font-size: 1.4rem;
+  font-size: 1.8rem;
   color: #ffffff;
   text-align: center;
   margin: 1.5rem 0.5rem 2.5rem;
@@ -564,7 +564,7 @@ div.links-footer ul li a:hover {
 
 .btn {
   font-family: "Oxygen", sans-serif;
-  font-size: 1.1rem;
+  font-size: 1.3rem;
   transition: color 0.1s ease-in-out, background-color 0.1s ease-in-out;
 }
 .btn:hover {
@@ -575,13 +575,13 @@ div.links-footer ul li a:hover {
 
 .form-label {
   font-family: "Oxygen", sans-serif;
-  font-size: 1.4rem;
+  font-size: 1.6rem;
   color: #ffffff;
 }
 
 .form-control::placeholder {
   font-family: "Oxygen", sans-serif;
-  font-size: 1.2rem;
+  font-size: 1.4rem;
 }
 
 /*# sourceMappingURL=main.css.map */

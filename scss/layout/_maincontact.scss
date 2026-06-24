@@ -25,7 +25,7 @@
 
 .h1Contacto {
     font-family: variables.$fuentetitulo;
-    font-size: 2.5rem;
+    font-size: 2.7rem;
     text-align: center;
     color: variables.$colorgamauno;
 
@@ -35,7 +35,7 @@
 
 .subtituloBuzonAlcaldia, .subtituloBuzonRobin {
     font-family: variables.$fuentesubtitulo;
-    font-size: 1.8rem;
+    font-size: 2.3rem;
     text-align: center;
     color: variables.$colorgamauno;
     margin-top: 1.6rem;
@@ -47,7 +47,7 @@
 
 .textoBuzonAlcaldia, .textoBuzonRobin {
     font-family: variables.$fuentetexto;
-    font-size: 1.4rem;
+    font-size: 1.8rem;
     color: variables.$colorbasicotexto;
     text-align: center;
     margin: 1.5rem 0.5rem 2.5rem;
@@ -55,7 +55,7 @@
 
 .btn {
     font-family: variables.$fuentetexto;
-    font-size: 1.1rem;
+    font-size: 1.3rem;
     transition: color 0.1s ease-in-out, background-color 0.1s ease-in-out;
 
     &:hover {
@@ -67,14 +67,14 @@
 
 .form-label {
     font-family: variables.$fuentetexto;
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     color: variables.$colorbasicotexto;
 }
 
 .form-control {
     &::placeholder {
     font-family: variables.$fuentetexto;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     }
 }
 
