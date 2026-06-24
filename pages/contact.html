@@ -78,7 +78,7 @@
                     <textarea class="form-control" id="textareaComentarios" rows="5" placeholder="Escribí acá tu mensaje detallado..." required></textarea>
                 </div>
                 <div class="text-center mt-4">
-                    <button type="submit" class="btn btn-stardew btn-warning px-5 fw-bold text-dark">Enviar Carta</button>
+                    <button type="submit" class="btn btn-stardew btn-warning px-5 fw-bold text-dark">Enviar carta</button>
                 </div>
             </div>
         </form>
@@ -88,37 +88,29 @@
             <p class="textoBuzonRobin">¿Necesitás un nuevo corral para tus gallinas, un establo espacioso o querés ampliar la cocina de tu casa? 
             Dejale los planos de tu próximo proyecto a <strong>Robin</strong>. ¡Preparará la madera y los materiales para ponerse a trabajar en tu granja cuanto antes!</p>
             <form>
-        <!-- 1. Campo para el Nombre -->
-        <div class="mb-3">
-            <label for="inputNombre" class="form-label">Nombre del Granjero/a</label>
-            <input type="text" class="form-control" id="inputNombre" placeholder="Tu nombre o el de tu granja" required>
-        </div>
-        
-        <!-- 2. Desplegable temático para el tipo de Proyecto -->
-        <div class="mb-3">
-            <label for="selectProyecto" class="form-label">Proyecto o Estructura</label>
-            <select class="form-select form-control" id="selectProyecto" required>
-                <option value="" disabled selected hidden>¿Qué obra vas a encargar?</option>
-                <option value="casa">Ampliación de la Casa de Campo</option>
-                <option value="corral">Construir Corral (Gallinas, Patos)</option>
-                <option value="establo">Construir Establo (Vacas, Cabras)</option>
-                <option value="silo">Silo de Piedra para Alimento</option>
-                <option value="muebles">Encargo de Muebles de Madera</option>
-            </select>
-        </div>
-        
-        <!-- 3. Campo para los detalles del plano -->
-        <div class="mb-3">
-            <label for="textareaComentarios" class="form-label">Detalles y Ubicación en la Granja</label>
-            <textarea class="form-control" id="textareaComentarios" rows="5" placeholder="Escribí acá las especificaciones del terreno o los materiales que tenés listos..." required></textarea>
-        </div>
-
-        <!-- Botón de envío que hereda tus estilos de .btn -->
-        <div class="text-center mt-4">
-            <button type="submit" class="btn btn-warning px-5 fw-bold text-dark">Encargar Obra</button>
-        </div>
-    </form>
-</div>
+                <div class="mb-3">
+                    <label for="inputNombre" class="form-label">Nombre del granjero/a</label>
+                    <input type="text" class="form-control" id="inputNombre" placeholder="Tu nombre o el de tu granja" required>
+                </div>
+                <div class="mb-3">
+                    <label for="selectProyecto" class="form-label">Proyecto o estructura</label>
+                    <select class="form-select form-control" id="selectProyecto" required>
+                        <option value="" disabled selected hidden>¿Qué obra vas a encargar?</option>
+                        <option value="casa">Ampliación de la casa</option>
+                        <option value="corral">Construir corral (gallinas, patos)</option>
+                        <option value="establo">Construir establo (vacas, cabras)</option>
+                        <option value="silo">Silo de piedra para alimento</option>
+                        <option value="muebles">Encargo de muebles de madera</option>
+                    </select>
+                </div>
+                <div class="mb-3">
+                    <label for="textareaComentarios" class="form-label">Detalles y ubicación en la granja</label>
+                    <textarea class="form-control" id="textareaComentarios" rows="5" placeholder="Escribí las especificaciones del terreno o los materiales que tenés listos." required></textarea>
+                </div>
+                <div class="text-center mt-4">
+                    <button type="submit" class="btn btn-warning px-5 fw-bold text-dark">Encargar obra</button>
+                </div>
+            </form>
         </div>
     </main>
 <div class="container-fluid border-top mt-5 py-5 footer-container">

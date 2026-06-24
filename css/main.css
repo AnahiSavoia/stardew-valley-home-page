@@ -559,7 +559,7 @@ div.links-footer ul li a:hover {
   font-size: 1.4rem;
   color: #ffffff;
   text-align: center;
-  margin: 1rem 0.5rem;
+  margin: 1.5rem 0.5rem 2.5rem;
 }
 
 .btn {
@@ -581,7 +581,7 @@ div.links-footer ul li a:hover {
 
 .form-control::placeholder {
   font-family: "Oxygen", sans-serif;
-  font-size: 1rem;
+  font-size: 1.2rem;
 }
 
 /*# sourceMappingURL=main.css.map */
