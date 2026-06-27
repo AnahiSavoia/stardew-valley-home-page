@@ -55,12 +55,13 @@
 .btn {
     font-family: variables.$fuentetexto;
     font-size: 1.3rem;
-    transition: color 0.1s ease-in-out, background-color 0.1s ease-in-out;
+    transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out;
 
     &:hover {
         color: white !important;
         background-color: variables.$colorgamados;
         border-color: variables.$colorgamatres;
+        transform: scale(1.1);
     }
 }
 

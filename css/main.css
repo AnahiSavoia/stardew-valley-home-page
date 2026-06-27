@@ -565,12 +565,13 @@ div.links-footer ul li a:hover {
 .btn {
   font-family: "Oxygen", sans-serif;
   font-size: 1.3rem;
-  transition: color 0.1s ease-in-out, background-color 0.1s ease-in-out;
+  transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out;
 }
 .btn:hover {
   color: white !important;
   background-color: #0EA111;
   border-color: #074C1A;
+  transform: scale(1.1);
 }
 
 .form-label {
@@ -582,6 +583,14 @@ div.links-footer ul li a:hover {
 .form-control::placeholder {
   font-family: "Oxygen", sans-serif;
   font-size: 1.4rem;
+}
+
+/*Usar translatez() para acercar el cultivo cuando se le hace hover. Tambien le puedo agrgar una rotacion, ver si no queda muy mal*/
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation: none !important;
+    transition: none !important;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */
