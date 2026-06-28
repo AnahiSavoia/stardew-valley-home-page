@@ -585,7 +585,73 @@ div.links-footer ul li a:hover {
   font-size: 1.4rem;
 }
 
-/*Usar translatez() para acercar el cultivo cuando se le hace hover. Tambien le puedo agrgar una rotacion, ver si no queda muy mal*/
+.cropsContainer {
+  padding: 2rem 1rem;
+}
+.cropsContainer .springContainer {
+  background-color: rgba(0, 0, 0, 0.5);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 15px;
+  padding: 1.5rem;
+}
+.cropsContainer .springContainer .titulo-estacion {
+  font-family: "Montserrat", sans-serif;
+}
+.cropsContainer .springContainer .titulo-estacion.primavera {
+  color: #ffb703;
+}
+.cropsContainer .springContainer .titulo-estacion.verano {
+  color: #fb8500;
+}
+.cropsContainer .springContainer .titulo-estacion.otono {
+  color: #d62828;
+}
+.cropsContainer .springContainer .titulo-estacion.invierno {
+  color: #00b4d8;
+}
+.cropsContainer .cultivos-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem 1.3rem;
+}
+.cropsContainer .cultivo-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.cropsContainer .cultivo-item .img-wrapper {
+  width: 80px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 0.5rem;
+  perspective: 1000px;
+}
+.cropsContainer .cultivo-item .cultivo-img {
+  max-width: 100%;
+  height: auto;
+  image-rendering: pixelated;
+  transition: transform 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+  transform-style: preserve-3d;
+}
+.cropsContainer .cultivo-item .cultivo-img:hover {
+  transform: rotateY(360deg);
+}
+.cropsContainer .cultivo-item .cultivo-nombre {
+  font-family: "Oxygen", sans-serif;
+  font-size: 1.4rem;
+  color: #E0A100;
+  margin-bottom: 0.25rem;
+}
+.cropsContainer .cultivo-item .cultivo-desc {
+  font-size: 1.1rem;
+  color: #ffffff;
+  margin: 0;
+  line-height: 1.2;
+}
+
 @media (prefers-reduced-motion: reduce) {
   * {
     animation: none !important;

@@ -1,3 +1,73 @@
 @use "../utilities/variables";
 
-/*Usar translatez() para acercar el cultivo cuando se le hace hover. Tambien le puedo agrgar una rotacion, ver si no queda muy mal*/
+.cropsContainer{
+    padding: 2rem 1rem;
+
+    .springContainer {
+        background-color: variables.$bgcolorlight;
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        border-radius: 15px;
+        padding: 1.5rem;
+
+        .titulo-estacion {
+            font-family: variables.$fuentesubtitulo;
+            
+            &.primavera { color: #ffb703; } // Podés personalizar colores por estación
+            &.verano { color: #fb8500; }
+            &.otono { color: #d62828; }
+            &.invierno { color: #00b4d8; }
+        }
+    }
+
+    .cultivos-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1.5rem 1.3rem;
+    }
+
+    .cultivo-item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+
+        .img-wrapper {
+            width: 80px;
+            height: 80px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 0.5rem;
+            perspective: 1000px; // Le da profundidad a la animación 3D
+        }
+
+        .cultivo-img {
+            max-width: 100%;
+            height: auto;
+            image-rendering: pixelated; // Clave para mantener el Pixel Art nítido
+            
+            // ============= ANIMACIÓN HOVER (GIRO) =============
+            transition: transform 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+            transform-style: preserve-3d;
+
+            &:hover {
+                transform: rotateY(360deg); // Gira por completo sobre su eje vertical
+            }
+            
+        }
+
+        .cultivo-nombre {
+            font-family: variables.$fuentetexto;
+            font-size: 1.4rem;
+            color: variables.$colorgamauno;
+            margin-bottom: 0.25rem;
+        }
+
+        .cultivo-desc {
+            font-size: 1.1rem;
+            color: variables.$colorbasicotexto;
+            margin: 0;
+            line-height: 1.2;
+        }
+    }
+}
