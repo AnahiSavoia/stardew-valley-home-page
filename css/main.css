@@ -633,11 +633,16 @@ div.links-footer ul li a:hover {
   max-width: 100%;
   height: auto;
   image-rendering: pixelated;
-  transition: transform 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+  transition: transform 0.9s cubic-bezier(0.4, 0, 0.2, 1);
   transform-style: preserve-3d;
 }
-.cropsContainer .cultivo-item .cultivo-img:hover {
-  transform: rotateY(360deg);
+@media (hover: hover) {
+  .cropsContainer .cultivo-item .cultivo-img:hover {
+    transform: rotateY(360deg);
+  }
+  .cropsContainer .cultivo-item .cultivo-img:active, .cropsContainer .cultivo-item .cultivo-img:focus {
+    transform: rotateY(360deg);
+  }
 }
 .cropsContainer .cultivo-item .cultivo-nombre {
   font-family: "Oxygen", sans-serif;

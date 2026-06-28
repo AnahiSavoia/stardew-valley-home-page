@@ -44,16 +44,19 @@
         .cultivo-img {
             max-width: 100%;
             height: auto;
-            image-rendering: pixelated; // Clave para mantener el Pixel Art nítido
-            
-            // ============= ANIMACIÓN HOVER (GIRO) =============
-            transition: transform 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+            image-rendering: pixelated;
+            transition: transform 0.9s cubic-bezier(0.4, 0, 0.2, 1);
             transform-style: preserve-3d;
 
-            &:hover {
-                transform: rotateY(360deg); // Gira por completo sobre su eje vertical
-            }
+            @media (hover:hover) {
+                &:hover {
+                    transform: rotateY(360deg);
+                }
             
+            &:active, &:focus {
+                transform: rotateY(360deg);
+            }
+            }           
         }
 
         .cultivo-nombre {
