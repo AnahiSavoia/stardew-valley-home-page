@@ -593,21 +593,51 @@ div.links-footer ul li a:hover {
   border: 1px solid rgba(255, 255, 255, 0.1);
   border-top-left-radius: 2rem;
   border-top-right-radius: 2rem;
-  padding: 1.5rem;
+  padding: 2rem;
 }
 .cropsContainer .springContainer .titulo-estacion {
   font-family: "Montserrat", sans-serif;
+  font-size: 2rem;
 }
 .cropsContainer .springContainer .titulo-estacion.primavera {
   color: #ffb703;
 }
-.cropsContainer .springContainer .titulo-estacion.verano {
+.cropsContainer .summerContainer {
+  background-color: rgba(15, 6, 20, 0.6784313725);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 2rem;
+}
+.cropsContainer .summerContainer .titulo-estacion {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2rem;
+}
+.cropsContainer .summerContainer .titulo-estacion.verano {
   color: #fb8500;
 }
-.cropsContainer .springContainer .titulo-estacion.otono {
-  color: #d62828;
+.cropsContainer .fallContainer {
+  background-color: rgba(0, 0, 0, 0.5);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 2rem;
 }
-.cropsContainer .springContainer .titulo-estacion.invierno {
+.cropsContainer .fallContainer .titulo-estacion {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2rem;
+}
+.cropsContainer .fallContainer .titulo-estacion.otono {
+  color: #ac6a2d;
+}
+.cropsContainer .winterContainer {
+  background-color: rgba(15, 6, 20, 0.6784313725);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 2rem;
+  border-bottom-left-radius: 2rem;
+  border-bottom-right-radius: 2rem;
+}
+.cropsContainer .winterContainer .titulo-estacion {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2rem;
+}
+.cropsContainer .winterContainer .titulo-estacion.invierno {
   color: #00b4d8;
 }
 .cropsContainer .cultivos-grid {
@@ -647,12 +677,12 @@ div.links-footer ul li a:hover {
 }
 .cropsContainer .cultivo-item .cultivo-nombre {
   font-family: "Oxygen", sans-serif;
-  font-size: 1.4rem;
+  font-size: 1.7rem;
   color: #E0A100;
-  margin-bottom: 0.25rem;
+  margin-bottom: 1rem;
 }
 .cropsContainer .cultivo-item .cultivo-desc {
-  font-size: 1.1rem;
+  font-size: 1.4rem;
   color: #ffffff;
   margin: 0;
   line-height: 1.2;

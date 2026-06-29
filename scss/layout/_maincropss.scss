@@ -8,17 +8,48 @@
         border: 1px solid rgba(255, 255, 255, 0.1);
         border-top-left-radius: 2rem;
         border-top-right-radius: 2rem;
-        padding: 1.5rem;
-
+        padding: 2rem;
         .titulo-estacion {
             font-family: variables.$fuentesubtitulo;
-            
-            &.primavera { color: #ffb703; } // Podés personalizar colores por estación
-            &.verano { color: #fb8500; }
-            &.otono { color: #d62828; }
-            &.invierno { color: #00b4d8; }
+            font-size: 2rem;            
+            &.primavera { color: #ffb703; }
         }
     }
+
+    .summerContainer {
+        background-color: variables.$bgcolordark;
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        padding: 2rem;
+        .titulo-estacion {
+            font-family: variables.$fuentesubtitulo;
+            font-size: 2rem;
+            &.verano { color: #fb8500; }
+        }        
+    }
+
+    .fallContainer {
+        background-color: variables.$bgcolorlight;
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        padding: 2rem;
+        .titulo-estacion {
+            font-family: variables.$fuentesubtitulo;
+            font-size: 2rem;
+            &.otono { color: #ac6a2d; }  
+        }
+    }
+
+    .winterContainer {
+        background-color: variables.$bgcolordark;
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        padding: 2rem;
+        border-bottom-left-radius: 2rem;
+        border-bottom-right-radius: 2rem;
+        .titulo-estacion {
+            font-family: variables.$fuentesubtitulo;
+            font-size: 2rem;
+            &.invierno { color: #00b4d8; }
+            }
+        }
 
     .cultivos-grid {
         display: grid;
@@ -62,13 +93,13 @@
 
         .cultivo-nombre {
             font-family: variables.$fuentetexto;
-            font-size: 1.4rem;
+            font-size: 1.7rem;
             color: variables.$colorgamauno;
-            margin-bottom: 0.25rem;
+            margin-bottom: 1rem;
         }
 
         .cultivo-desc {
-            font-size: 1.1rem;
+            font-size: 1.4rem;
             color: variables.$colorbasicotexto;
             margin: 0;
             line-height: 1.2;
