@@ -645,6 +645,12 @@ div.links-footer ul li a:hover {
   grid-template-columns: repeat(2, 1fr);
   gap: 1.5rem 1.3rem;
 }
+@media (min-width: 768px) {
+  .cropsContainer .cultivos-grid {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.5rem 1.3rem;
+  }
+}
 .cropsContainer .cultivo-item {
   display: flex;
   flex-direction: column;
